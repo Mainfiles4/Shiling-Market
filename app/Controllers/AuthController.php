@@ -33,11 +33,14 @@ class AuthController extends Controller
     
     // Create a new user
     $userModel = new UserModel();
+    $current_time = date('Y-m-d H:i:s');
     $userData = [
         'username' => $this->request->getVar('username'),
         'email' => $this->request->getVar('email'),
         'password' => $hashedPassword,
-        'password_confirm' => $hashedPassword  // Add this line to include password_confirm
+        'password_confirm' => $hashedPassword,  // Add this line to include password_confirm
+        'created_at' => $current_time,
+        'updated_at' => $current_time
     ];
 
     // Save the user data
@@ -149,12 +152,15 @@ class AuthController extends Controller
         return $this->failServerError('Not enough products in store');
     }
         $transactonModel = new Transactions();
+        $current_time = date('Y-m-d H:i:s');
         $transactionData = [
             'buyer_id' => $buyerId,
             'seller_id' => $sellerId,
             'amount' => $totalAmount, 
             'currency' => "SHLING", 
-            'quantity' => $quantity
+            'quantity' => $quantity,
+            'created_at' => $current_time,
+            'updated_at' => $current_time
         ];
         $transactonModel->save($transactionData);
         return $this->respondCreated(['message' => 'Product bought successfully.', 'transactonModel' => $transactonModel]);

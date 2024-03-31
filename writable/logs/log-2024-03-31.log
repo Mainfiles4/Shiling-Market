@@ -961,3 +961,9 @@ FROM `products`', [], false)
  8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 17:56:01 --> ErrorException: Undefined array key "REQUEST_METHOD"
+in APPPATH\Config\Routes.php on line 13.
+ 1 APPPATH\Config\Routes.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "REQUEST_METHOD"', 'C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\app\\Config\\Routes.php', 13)
+ 2 SYSTEMPATH\Router\RouteCollection.php(345): require('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CLI\Console.php(39): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()

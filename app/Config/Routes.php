@@ -10,7 +10,7 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
+if (isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
     exit; // Preflight request, exit early
 }
 
@@ -22,6 +22,7 @@ $routes->post('/api/v1', 'ApiControllers::index');
 // for user registration
 $routes->post('api/v1/auth-register', 'AuthController::register');
 $routes->post('api/v1/auth-login', 'AuthController::login');
+$routes->get('api/v1/auth-logout', 'AuthController::logout');
 
 // for products manipulation
 $routes->get('/api/v1/products', 'ProductsController::index');
