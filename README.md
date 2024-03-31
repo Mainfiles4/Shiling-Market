@@ -4,12 +4,12 @@ Follow these steps to set up and run a CodeIgniter 4 project after cloning the r
 
 1. **Cloning the Repository**: Clone the Git repository containing the CodeIgniter 4 project to your local machine:
     ```bash
-    git clone <repository-url>
+    git clone [<repository-url>](https://github.com/Mainfiles4/Shiling-Market.git)
     ```
 
 2. **Installing Composer Dependencies**: Navigate to the project directory and install Composer dependencies:
     ```bash
-    cd <project-directory>
+    cd Shiling-Market
     composer install
     ```
 
