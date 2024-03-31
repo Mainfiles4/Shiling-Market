@@ -1,0 +1,963 @@
+ERROR - 2024-03-31 06:55:02 --> mysqli_sql_exception: Invalid default value for 'created_at' in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\app\Database\Migrations\2024-03-29-190927_CreateUsersTable.php(50): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(865): App\Database\Migrations\CreateUsersTable->up()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2024-03-31 07:54:27 --> ErrorException: Undefined array key "amount"
+in APPPATH\Controllers\AuthController.php on line 181.
+ 1 APPPATH\Controllers\AuthController.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "amount"', 'C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\app\\Controllers\\AuthController.php', 181)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->buyShiling()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 07:55:56 --> ErrorException: Undefined array key "amount"
+in APPPATH\Controllers\AuthController.php on line 181.
+ 1 APPPATH\Controllers\AuthController.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "amount"', 'C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\app\\Controllers\\AuthController.php', 181)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->buyShiling()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 07:56:12 --> ErrorException: Undefined array key "amount"
+in APPPATH\Controllers\AuthController.php on line 181.
+ 1 APPPATH\Controllers\AuthController.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "amount"', 'C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\app\\Controllers\\AuthController.php', 181)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->buyShiling()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 07:56:40 --> ErrorException: Undefined array key "amount"
+in APPPATH\Controllers\AuthController.php on line 181.
+ 1 APPPATH\Controllers\AuthController.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "amount"', 'C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\app\\Controllers\\AuthController.php', 181)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->buyShiling()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 07:57:49 --> ErrorException: Undefined array key "amount"
+in APPPATH\Controllers\AuthController.php on line 181.
+ 1 APPPATH\Controllers\AuthController.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "amount"', 'C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\app\\Controllers\\AuthController.php', 181)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->buyShiling()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 08:04:22 --> ErrorException: Undefined array key "user_id"
+in APPPATH\Controllers\AuthController.php on line 181.
+ 1 APPPATH\Controllers\AuthController.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\app\\Controllers\\AuthController.php', 181)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->buyShiling()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 08:04:42 --> ErrorException: Undefined array key "user_id"
+in APPPATH\Controllers\AuthController.php on line 181.
+ 1 APPPATH\Controllers\AuthController.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\app\\Controllers\\AuthController.php', 181)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->buyShiling()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 08:09:26 --> ErrorException: Undefined array key "amount"
+in APPPATH\Controllers\AuthController.php on line 183.
+ 1 APPPATH\Controllers\AuthController.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "amount"', 'C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\app\\Controllers\\AuthController.php', 183)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->buyShiling()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 08:18:28 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\AuthController.php on line 220.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->buyShiling()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 08:18:46 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\AuthController.php on line 220.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->buyShiling()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 08:19:14 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\AuthController.php on line 220.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->buyShiling()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 08:20:20 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\AuthController.php on line 220.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->buyShiling()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 08:21:23 --> ErrorException: Undefined variable $buyerId
+in APPPATH\Controllers\AuthController.php on line 227.
+ 1 APPPATH\Controllers\AuthController.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $buyerId', 'C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\app\\Controllers\\AuthController.php', 227)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->buyShiling()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 08:21:57 --> ErrorException: Undefined variable $buyerId
+in APPPATH\Controllers\AuthController.php on line 227.
+ 1 APPPATH\Controllers\AuthController.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $buyerId', 'C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\app\\Controllers\\AuthController.php', 227)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->buyShiling()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 08:22:42 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\AuthController.php on line 220.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->buyShiling()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 08:23:24 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\AuthController.php on line 220.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->buyShiling()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 08:24:09 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\AuthController.php on line 220.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->buyShiling()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 08:25:36 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\AuthController.php on line 220.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->buyShiling()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 08:34:37 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\AuthController.php on line 220.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->buyShiling()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 08:35:27 --> ErrorException: Attempt to read property "data" on string
+in APPPATH\Controllers\AuthController.php on line 220.
+ 1 APPPATH\Controllers\AuthController.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "data" on string', 'C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\app\\Controllers\\AuthController.php', 220)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->buyShiling()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 08:35:50 --> Error: Undefined constant "App\Controllers\data"
+in APPPATH\Controllers\AuthController.php on line 220.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AuthController->buyShiling()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 09:04:26 --> CodeIgniter\Exceptions\ConfigException: Config\App::$baseURL "/public/index.php/" is not a valid URL.
+in SYSTEMPATH\HTTP\SiteURI.php on line 199.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(145): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+ 2 SYSTEMPATH\HTTP\SiteURI.php(100): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), null, null)
+ 3 SYSTEMPATH\HTTP\CLIRequest.php(78): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'serve')
+ 4 SYSTEMPATH\Config\Services.php(144): CodeIgniter\HTTP\CLIRequest->__construct(Object(Config\App))
+ 5 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::clirequest(Object(Config\App), false)
+ 6 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('clirequest', [...])
+ 7 SYSTEMPATH\Config\Services.php(139): CodeIgniter\Config\BaseService::getSharedInstance('clirequest', Object(Config\App))
+ 8 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::clirequest(Object(Config\App))
+ 9 SYSTEMPATH\Config\Services.php(537): CodeIgniter\Config\BaseService::__callStatic('clirequest', [...])
+10 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App), true)
+11 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\Config\BaseService::__callStatic('createRequest', [...])
+12 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+CRITICAL - 2024-03-31 09:04:26 --> ErrorException: Uncaught CodeIgniter\Exceptions\ConfigException: Config\App::$baseURL "/public/index.php/" is not a valid URL. in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\HTTP\SiteURI.php:199
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\HTTP\SiteURI.php(145): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\HTTP\SiteURI.php(100): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\HTTP\SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), '/', NULL)
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\HTTP\SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('/')
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Config\Services.php(805): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Config\Services.php(798): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Config\Services.php(566): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#12 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#13 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#14 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Config\Services.php(520): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#15 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#16 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Debug\Exceptions.php(150): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#17 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\ConfigException))
+#18 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\ConfigException
+Config\App::$baseURL "/public/index.php/" is not a valid URL.
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\HTTP\SiteURI.php(145): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\HTTP\SiteURI.php(100): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\HTTP\CLIRequest.php(78): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'serve')
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Config\Services.php(144): CodeIgniter\HTTP\CLIRequest->__construct(Object(Config\App))
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Config\BaseService.php(258): CodeIgniter\Config\Services::clirequest(Object(Config\App), false)
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Config\Services.php(139): CodeIgniter\Config\BaseService::getSharedInstance('clirequest', Object(Config\App))
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Config\BaseService.php(258): CodeIgniter\Config\Services::clirequest(Object(Config\App))
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Config\Services.php(537): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App), true)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(37): CodeIgniter\Config\BaseService::__callStatic('createRequest', Array)
+#11 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#12 {main}
+in SYSTEMPATH\HTTP\SiteURI.php on line 199.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2024-03-31 09:32:33 --> Error connecting to the database: mysqli_sql_exception: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql302.byetclus...', 'sql11695519', Object(SensitiveParameterValue), 'ezyro_36276245_...', 3306, '', 0)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-03-31 09:33:21 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('ns1.liveblog365...', 'sql11695519', Object(SensitiveParameterValue), 'ezyro_36276245_...', 3306, '', 0)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-03-31 09:34:23 --> Error connecting to the database: mysqli_sql_exception: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql302.ezyro.co...', 'sql11695519', Object(SensitiveParameterValue), 'ezyro_36276245_...', 3306, '', 0)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-03-31 09:34:49 --> Error connecting to the database: mysqli_sql_exception: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql302.ezyro.co...', '\tezyro_36276245', Object(SensitiveParameterValue), 'ezyro_36276245_...', 3306, '', 0)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-03-31 09:37:17 --> Error connecting to the database: mysqli_sql_exception: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql302.ezyro.co...', '\tezyro_36276245', Object(SensitiveParameterValue), 'ezyro_36276245_...', 3306, '', 0)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-03-31 09:47:56 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for sql11.freemysqlhosting.net failed: No such host is known.  in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\Users\\Natnae...', 184)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql11.freemysql...', 'sql11695519', Object(SensitiveParameterValue), 'sql11695519', 3306, '', 0)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#11 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#12 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql11.freemysqlhosting.net failed: No such host is known.  in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql11.freemysql...', 'sql11695519', Object(SensitiveParameterValue), 'sql11695519', 3306, '', 0)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for sql11.freemysqlhosting.net failed: No such host is known.  in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-03-31 09:48:30 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for sql11.freemysqlhosting.net failed: No such host is known.  in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\Users\\Natnae...', 184)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql11.freemysql...', 'sql11695519', Object(SensitiveParameterValue), 'sql11695519', 3306, '', 0)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#11 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#12 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql11.freemysqlhosting.net failed: No such host is known.  in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql11.freemysql...', 'sql11695519', Object(SensitiveParameterValue), 'sql11695519', 3306, '', 0)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for sql11.freemysqlhosting.net failed: No such host is known.  in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-03-31 09:48:56 --> Error connecting to the database: mysqli_sql_exception: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql302.byetclus...', 'sql11695519', Object(SensitiveParameterValue), 'sql11695519', 3306, '', 0)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-03-31 09:49:02 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for sql11.freemysqlhosting.net failed: No such host is known.  in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\Users\\Natnae...', 184)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql11.freemysql...', 'sql11695519', Object(SensitiveParameterValue), 'sql11695519', 3306, '', 0)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#11 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#12 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql11.freemysqlhosting.net failed: No such host is known.  in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql11.freemysql...', 'sql11695519', Object(SensitiveParameterValue), 'sql11695519', 3306, '', 0)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for sql11.freemysqlhosting.net failed: No such host is known.  in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-03-31 09:49:19 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for sql11.freemysqlhosting.net failed: No such host is known.  in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\Users\\Natnae...', 184)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql11.freemysql...', 'sql11695519', Object(SensitiveParameterValue), 'sql11695519', 3306, '', 0)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#11 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#12 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql11.freemysqlhosting.net failed: No such host is known.  in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql11.freemysql...', 'sql11695519', Object(SensitiveParameterValue), 'sql11695519', 3306, '', 0)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for sql11.freemysqlhosting.net failed: No such host is known.  in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-03-31 09:49:22 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for sql11.freemysqlhosting.net failed: No such host is known.  in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\Users\\Natnae...', 184)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql11.freemysql...', 'sql11695519', Object(SensitiveParameterValue), 'sql11695519', 3306, '', 0)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#11 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#12 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql11.freemysqlhosting.net failed: No such host is known.  in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql11.freemysql...', 'sql11695519', Object(SensitiveParameterValue), 'sql11695519', 3306, '', 0)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for sql11.freemysqlhosting.net failed: No such host is known.  in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-03-31 09:49:32 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for sql11.freemysqlhosting.net failed: No such host is known.  in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\Users\\Natnae...', 184)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql11.freemysql...', 'sql11695519', Object(SensitiveParameterValue), 'sql11695519', 3306, '', 0)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#11 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#12 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql11.freemysqlhosting.net failed: No such host is known.  in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql11.freemysql...', 'sql11695519', Object(SensitiveParameterValue), 'sql11695519', 3306, '', 0)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for sql11.freemysqlhosting.net failed: No such host is known.  in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-03-31 09:49:35 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for sql11.freemysqlhosting.net failed: No such host is known.  in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\Users\\Natnae...', 184)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql11.freemysql...', 'sql11695519', Object(SensitiveParameterValue), 'sql11695519', 3306, '', 0)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#11 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#12 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql11.freemysqlhosting.net failed: No such host is known.  in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql11.freemysql...', 'sql11695519', Object(SensitiveParameterValue), 'sql11695519', 3306, '', 0)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for sql11.freemysqlhosting.net failed: No such host is known.  in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-03-31 09:49:52 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for sql11.freemysqlhosting.net failed: No such host is known.  in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\Users\\Natnae...', 184)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql11.freemysql...', 'sql11695519', Object(SensitiveParameterValue), 'sql11695519', 3306, '', 0)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#11 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#12 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql11.freemysqlhosting.net failed: No such host is known.  in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql11.freemysql...', 'sql11695519', Object(SensitiveParameterValue), 'sql11695519', 3306, '', 0)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for sql11.freemysqlhosting.net failed: No such host is known.  in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-03-31 09:50:41 --> Error connecting to the database: mysqli_sql_exception: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql11.freemysql...', 'sql11695519', Object(SensitiveParameterValue), 'sql11695519', 3306, '', 0)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-03-31 09:50:56 --> Error connecting to the database: mysqli_sql_exception: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql11.freemysql...', 'sql11695519', Object(SensitiveParameterValue), 'sql11695519', 3306, '', 0)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-03-31 09:51:10 --> Error connecting to the database: mysqli_sql_exception: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql11.freemysql...', 'sql11695519', Object(SensitiveParameterValue), 'sql11695519', 3306, '', 0)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-03-31 14:06:43 --> Error connecting to the database: mysqli_sql_exception: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql11.freemysql...', 'sql11695519', Object(SensitiveParameterValue), 'sql11695519', 3306, '', 0)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\app\Controllers\ProductsController.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CodeIgniter.php(943): App\Controllers\ProductsController->index()
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnae...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\app\Controllers\ProductsController.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CodeIgniter.php(943): App\Controllers\ProductsController->index()
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnae...')
+#11 {main}
+CRITICAL - 2024-03-31 14:06:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`', [], false)
+ 3 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\ProductsController.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ProductsController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 14:31:24 --> CodeIgniter\Filters\Exceptions\FilterException: "cors" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 580.
+ 1 SYSTEMPATH\Filters\Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('cors')
+ 2 SYSTEMPATH\Filters\Filters.php(264): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(172): CodeIgniter\Filters\Filters->initialize('api/v1/products')
+ 4 SYSTEMPATH\CodeIgniter.php(475): CodeIgniter\Filters\Filters->run('api/v1/products', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 14:33:17 --> CodeIgniter\Filters\Exceptions\FilterException: "cors" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 580.
+ 1 SYSTEMPATH\Filters\Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('cors')
+ 2 SYSTEMPATH\Filters\Filters.php(264): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(172): CodeIgniter\Filters\Filters->initialize('api/v1/products')
+ 4 SYSTEMPATH\CodeIgniter.php(475): CodeIgniter\Filters\Filters->run('api/v1/products', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 14:35:08 --> CodeIgniter\Filters\Exceptions\FilterException: "cors" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 580.
+ 1 SYSTEMPATH\Filters\Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('cors')
+ 2 SYSTEMPATH\Filters\Filters.php(264): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(172): CodeIgniter\Filters\Filters->initialize('api/v1/products')
+ 4 SYSTEMPATH\CodeIgniter.php(475): CodeIgniter\Filters\Filters->run('api/v1/products', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 15:09:02 --> Error: Class "App\Filters\CorsFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 175.
+ 1 SYSTEMPATH\CodeIgniter.php(475): CodeIgniter\Filters\Filters->run('api/v1/products', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 15:09:50 --> Error: Class "App\Filters\CorsFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 175.
+ 1 SYSTEMPATH\CodeIgniter.php(475): CodeIgniter\Filters\Filters->run('api/v1/products', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+CRITICAL - 2024-03-31 15:10:04 --> Error: Class "App\Filters\CorsFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 175.
+ 1 SYSTEMPATH\CodeIgniter.php(475): CodeIgniter\Filters\Filters->run('api/v1/products', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
+ERROR - 2024-03-31 15:16:49 --> Error connecting to the database: mysqli_sql_exception: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql11.freemysql...', 'sql11695519', Object(SensitiveParameterValue), 'sql11695519', 3306, '', 0)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\app\Controllers\ProductsController.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CodeIgniter.php(943): App\Controllers\ProductsController->index()
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnae...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Natnael\OneDrive\Desktop\Shling Market\app\Controllers\ProductsController.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CodeIgniter.php(943): App\Controllers\ProductsController->index()
+#7 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+#8 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Natnael\OneDrive\Desktop\Shling Market\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Natnael\OneDrive\Desktop\Shling Market\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnae...')
+#11 {main}
+CRITICAL - 2024-03-31 15:16:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`', [], false)
+ 3 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\ProductsController.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ProductsController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Natnael\\OneDrive\\Desktop\\Shling Market\\public\\index.php')
