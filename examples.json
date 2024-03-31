@@ -1,0 +1,39 @@
+[
+    {
+        "route":"(POST) http://[::1]/api/v1/product to create and use (GET) method to display all products",
+        "usecase":"for adding products",
+        "user_id":1,
+        "name":"Samsung A20s",
+        "description":"kajsdkjh jasdjkasjdb ajsdkjasnd",
+        "price":15000.00,
+        "quantity":2,
+        "category":"Electronics",
+        "image":"image.jpg"
+    },
+    {
+        "route":"(POST) http://[::1]/api/v1/auth-register to create user",
+        "usecase":"for user register",
+        "username":"admin",
+        "email":"admin@example.com",
+        "password":"password123",
+        "password_confirm":"password123"
+    },
+    {
+        "route":"(POST) http://[::1]/api/v1/products/buy/(int):productId to create user",
+        "usecase":"for product buy, the productId have to be provided with the route",
+        "buyer_id":"int buyer id or the current logged user",
+        "quantity":"amount to buy"
+    },
+    {
+        "route":"(POST) http://[::1]/api/v1/auth-login to login user this gives all the user data use them as you need",
+        "usecase":"for user login",
+        "email":"admin@example.com",
+        "password": "password123"
+    },
+    {
+        "route":"(POST) http://[::1]/api/v1/buy-shiling",
+        "usecase":"to buy from the central bank",
+        "buyer_id": "current user id",
+        "amount": "the shiling package amount (i.e if there are three packages the package amount)"
+    }
+]
